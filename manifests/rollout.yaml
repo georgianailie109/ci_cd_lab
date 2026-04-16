@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/georgianailie109/ci_cd_lab:latest
+          image: ghcr.io/georgianailie109/ci_cd_lab:sha256:bbbf70c6b3bdca9193c2b645204eae5be3c17efa8375b7b125da5a4d6cbbced2
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
